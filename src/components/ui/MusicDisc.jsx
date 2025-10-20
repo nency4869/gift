@@ -52,7 +52,7 @@ const MusicDisc = () => {
         {isPlaying ? <Music2 size={26} /> : <Play size={26} />}
       </div>
 
-      <audio ref={audioRef} src="/music/lofi.mp3" preload="auto" />
+      <audio ref={audioRef} src="./music/lofi.mp3" preload="auto" />
 
       <style>
         {`

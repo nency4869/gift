@@ -1,15 +1,13 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import IntroPage from "./components/pages/IntroPage";
-import MainPage from "./components/pages/mainPage";
+import MainPage from "./components/pages/MainPage";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<IntroPage />} />
-        <Route path="/main" element={<MainPage />} />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<IntroPage />} />
+      <Route path="/main" element={<MainPage />} />
+    </Routes>
   );
 }
 
