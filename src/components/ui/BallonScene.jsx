@@ -50,7 +50,7 @@ const BalloonScene = () => {
   };
 
   return (
-    <div className="fixed inset-0 pointer-events-none z-30 overflow-visible">
+    <div className="select-none fixed inset-0 pointer-events-none z-30 overflow-visible">
       {/* Các bong bóng */}
       {balloonImages.map((src, index) => {
         const pos = positions[index] || { left: "50%", top: "50%" };
